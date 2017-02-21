@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## 4 Hour Venture
 
 You can use the [editor on GitHub](https://github.com/Menux/4-Hour-Venture/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
