@@ -1,37 +1,26 @@
-## 4 Hour Venture
+# 4 Hour Venture
 
-You can use the [editor on GitHub](https://github.com/Menux/4-Hour-Venture/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+This repository is for the website of the 4 Hour Venture event. The 4 Hour Venture is a student event to build digital prototypes in a short amount of time.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+## Contribute
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Thank you for considering contributing to the 4 Hour Venture event website! Just send a pull request and it is going to be merge into this repository.
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+## Helpful resources
+[Jekyll Website](https://jekyllrb.com/)
 
-- Bulleted
-- List
+[Jekyll Documentation (Book Edition)](http://hydepress.github.io/jekyll)
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
+## Licence
 
-[Link](url) and ![Image](src)
-```
+The code that powers the 4 Hour Venture event website is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+MIT License
 
-### Jekyll Themes
+Copyright (c) 2017 MENUX GmbH
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Menux/4-Hour-Venture/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
