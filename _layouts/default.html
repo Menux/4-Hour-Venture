@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -14,75 +15,65 @@
     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  </head>
-  <body>
-    <nav class="navbar navbar-toggleable-md">
-      <div class="container">
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+</head>
+
+<body onload="loadScript()">
+
+    <nav class="navbar navbar-toggleable-md navbar-light fixed-top bg-faded">
+        <div id="app" class="container">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand" href="/">4 Hour Venture</a>
-
-        <div class="collapse navbar-collapse pull-xs-right pull-sm-right pull-md-right pull-lg-right pull-xl-right">
-          <ul class="navbar-nav mr-auto pull-xs-right pull-sm-right pull-md-right pull-lg-right pull-xl-right">
-            <li class="nav-item">
-              <a class="nav-link" href="/">Überblick</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/teilnehmer">Teilnehmer</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/sponsoren">Sponsoren</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/mentoren">Mentoren</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/mitmachen">Mitmachen</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/faq">
-                <i class="fa fa-question-circle" aria-hidden="true"></i>
-              </a>
-            </li>
-          </ul>
+            <a class="navbar-brand page-scroll" href="#start-header">
+              <img src="{{site.baseurl}}/assets/images/header-logo.png" width="100px" />
+            </a>
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active"></li>
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#about">Überblick</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#schedule">Ablauf</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#location">Veranstaltungsort</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#faq">FAQ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#sponsors">Sponsoren</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#participants">Mitmachen</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#contact">Kontakt</a>
+                </li>
+            </ul>
         </div>
-      </div>
     </nav>
 
     {{ content }}
 
     <div class="container">
-      <footer id="footer-sponsors-support">
-        <div class="container">
-          <h3 class="text-center footer-title-h3">Unsere Sponsoren & Unterstützer</h3>
-          <div class="row">
-            <div class="col-md-3">
-              <img src="{{site.baseurl}}/assets/images/ostfalia-hochschule.png" width="100%" />
-            </div>
-            <div class="col-md-3">
-              <img src="{{site.baseurl}}/assets/images/enrepreneuership-center.png" width="100%" />
-            </div>
-            <div class="col-md-3">
-              <img src="{{site.baseurl}}/assets/images/microsoft-logo.png" width="100%" />
-            </div>
-            <div class="col-md-3">
-              <img src="{{site.baseurl}}/assets/images/menux-logo.png" width="100%" />
-            </div>
-          </div>
-        </div>
-        <p class="text-center footer-legal">
-          Copyright &copy; 4 Hour Venture Events.
-          <span class="footer-grey">Ein Projekt der MENUX GmbH</span> |
-          <a href="https://www.menux.de/impressum" target="_blank">Impressum</a> |
-          <a href="/datenschutz">Datenschutz</a>
-          <br />
-          <span class="footer-small">Bearbeite diese Seite auf <i class="fa fa-github" aria-hidden="true"></i>
-          <a href="https://github.com/MENUX/4-Hour-Venture" target="_blank">GitHub</a>.</span>
-        </p>
+        <footer id="footer-sponsors-support">
 
-      </footer>
-    </div> <!-- /container -->
+            <p class="text-center footer-legal">
+                Copyright &copy; 4 Hour Venture Events.
+                <span class="footer-grey">Ein Projekt der MENUX GmbH</span> |
+                <a href="https://www.menux.de/impressum" target="_blank">Impressum</a> |
+                <a href="/datenschutz">Datenschutz</a>
+                <br />
+                <span class="footer-small">Bearbeite diese Seite auf <i class="fa fa-github" aria-hidden="true"></i>
+          <a href="https://github.com/MENUX/4-Hour-Venture" target="_blank">GitHub</a>.</span>
+            </p>
+
+        </footer>
+    </div>
+    <!-- /container -->
 
 
     <!-- Bootstrap core JavaScript
@@ -90,10 +81,12 @@
     <!-- Placed at the end of the document so the pages load faster -->
 
     <!-- JavaScript -->
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js"></script>
-   <script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>
-   <script src="assets/js/script.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/tether.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <script src="assets/js/script.js"></script>
 
-  </body>
+</body>
+
 </html>

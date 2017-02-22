@@ -12,31 +12,6 @@
   }
 }
 
-// Make default navbar links display block at choosen breakpoint and adjust styles to fit...
-@media (max-width: 62em) {
-	.navbar-nav {
-		padding-top: .425rem;
-		padding-left: 0.75rem;
-	}
-	.navbar-nav .nav-item {
-		float: none;
-	}
-	.navbar-brand {
-		float: right;
-	}
-	.navbar-brand,
-	.navbar-nav .nav-item {
-		display: block;
-	}
-	.navbar-nav .nav-item + .nav-item {
-		margin-left: 0;
-	}
-	.dropdown-menu {
-		position: relative;
-		float: none;
-	}
-}
-
 // Startscreen
 #start-header{
   background: url('../images/header-background.jpg') no-repeat center center;
@@ -51,23 +26,19 @@
 }
 
 #start-header p{
-  font-size: 1.4em;
+  font-size: 1.3em;
+  font-weight: 400;
   max-width: 900px;
   margin: 0 auto;
-  padding: 25px 0 0 0;
 }
 
 #start-into{
-  padding: 100px 0;
+  padding: 80px 0 140px 0;
   text-align: center;
 }
 
 #start-into h1{
   text-align: center;
-}
-
-#start-more-information-button{
-  margin: 40px 0 20px 0;
 }
 
 // Footer
@@ -96,4 +67,91 @@
   padding: 20px 0 0 0;
   font-size: 13px;
   color: #000;
+}
+
+.nav-item{
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+// About
+#about{
+  padding: 150px 0;
+}
+
+// Schedule
+#schedule{
+  padding: 150px 0;
+}
+
+#schedule h2{
+  padding: 0 0 60px 0;
+}
+
+#timetable{
+  margin: 0 auto;
+  padding: 30px;
+}
+
+// Google maps
+#wrapper {
+  position: relative;
+}
+
+#over_map {
+  position: absolute;
+  top: 80px;
+  left: 0;
+  z-index: 99;
+  width: 100%;
+}
+
+#map{
+  width: 100%;
+  height: 600px;
+}
+
+.white-background{
+  background: #fff;
+  padding: 20px;
+}
+
+// faq
+#faq{
+  padding: 150px 0;
+}
+
+#faq h2{
+  padding: 0 0 100px 0;
+  text-align: center;
+}
+
+// Sponsors
+#sponsors{
+  padding: 150px 0;
+}
+
+#sponsors h2{
+  padding: 0 0 100px 0;
+}
+
+// Participants
+#participants{
+  padding: 150px 0;
+}
+
+#participants-text{
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#contact{
+  text-align: center;
+}
+
+#contact-text{
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
 }

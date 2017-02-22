@@ -2,6 +2,34 @@
 
 This repository is for the website of the 4 Hour Venture event. The 4 Hour Venture is a student event to build digital prototypes in a short amount of time.
 
+## Requirements
+
+* python has to be installed (https://www.python.org/downloads/)
+
+## Software used in this project
+
+In this project many open source software is used. Here is a list of Open Source Software which is used in this project:
+
+* Jekyll (https://github.com/jekyll/jekyll)
+
+* Bootstrap 4 (https://github.com/twbs/bootstrap)
+
+* jQuery (https://github.com/jquery/jquery)
+
+* Sass (https://github.com/sass/sass)
+
+
+## Install
+
+Type in these commands to run this software.
+
+* git clone https://github.com/Menux/4-Hour-Venture
+
+* cd 4-Hour-Venture/
+
+* gem install jekyll bundler
+
+* bundle exec jekyll serve
 
 ## Contribute
 
