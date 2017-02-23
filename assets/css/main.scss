@@ -41,6 +41,12 @@
   text-align: center;
 }
 
+#countdown{
+  font-size: 2em;
+  margin: 20px 0 0 0;
+  font-weight: bold;
+}
+
 // Footer
 #footer-sponsors-support{
   margin: 120px 0;
@@ -93,6 +99,10 @@
   padding: 30px;
 }
 
+.red-table-row{
+  background: #E02129;
+}
+
 // Google maps
 #wrapper {
   position: relative;
@@ -124,6 +134,10 @@
 #faq h2{
   padding: 0 0 100px 0;
   text-align: center;
+}
+
+#faq .col-md-6{
+  padding: 15px 20px;
 }
 
 // Sponsors
