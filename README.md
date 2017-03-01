@@ -1,6 +1,6 @@
-# 4 Hour Venture
+# Four Hour Venture
 
-This repository is for the website of the 4 Hour Venture event. The 4 Hour Venture is a student event to build digital prototypes in a short amount of time.
+This repository is for the website of the Four Hour Venture event. The Four Hour Venture is a student event to build digital prototypes in a short amount of time.
 
 ## Requirements
 
@@ -12,7 +12,7 @@ In this project many open source software is used. Here is a list of Open Source
 
 * Jekyll (https://github.com/jekyll/jekyll)
 
-* Bootstrap 4 (https://github.com/twbs/bootstrap)
+* Bootstrap Four (https://github.com/twbs/bootstrap)
 
 * jQuery (https://github.com/jquery/jquery)
 
@@ -33,7 +33,7 @@ Type in these commands to run this software.
 
 ## Contribute
 
-Thank you for considering contributing to the 4 Hour Venture event website! Just send a pull request and it is going to be merge into this repository.
+Thank you for considering contributing to the Four Hour Venture event website! Just send a pull request and it is going to be merge into this repository.
 
 
 ## Helpful resources
@@ -44,7 +44,7 @@ Thank you for considering contributing to the 4 Hour Venture event website! Just
 
 ## Licence
 
-The code that powers the 4 Hour Venture event website is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+The code that powers the Four Hour Venture event website is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
 
 MIT License
 
