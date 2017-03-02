@@ -1,6 +1,6 @@
 # Four Hour Venture
 
-This repository is for the website of the Four Hour Venture event. The Four Hour Venture is a student event to build digital prototypes in a short amount of time.
+This repository is for the website of the Four Hour Venture event. The Four Hour Venture is a student event to build digital prototypes in a short amount of time. Originaly the event type was created by Andreas Dittes (http://andreasdittes.de/ and http://4hourventure.com/). The code of this event website is licenced under MIT Licence. This means you can do whatever you want with the code. We hope it helps you to save some time and make more people happy with great events.
 
 ## Requirements
 
