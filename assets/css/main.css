@@ -1,6 +1,3 @@
-@import "variables";
-@import "bootstrap/bootstrap";
-
 .starter-template {
   text-align: center;
   margin-top: 10rem;
@@ -12,7 +9,7 @@
 
 // Startscreen
 #start-header{
-  background: url('../images/header-background.jpg') no-repeat center center;
+  background: url('../assets/images/header-background.jpg') no-repeat center center;
   background-size: cover;
   color: #fff;
   font-family: 'Raleway', sans-serif;
@@ -106,8 +103,8 @@
 }
 
 // Google maps
-#wrapper {
-  position: relative;
+#wrapperMaps {
+  position: static;
 }
 
 #over_map {
