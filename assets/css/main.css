@@ -7,6 +7,18 @@
   }
 }
 
+#start-header,
+#about,
+#schedule,
+#wrapperMaps,
+#faq,
+#sponsors,
+#participants,
+#projects,
+#contact{
+  padding: 100px 0;
+}
+
 // Startscreen
 #start-header{
   background: url('../assets/images/header-background.jpg') no-repeat center center;
@@ -34,6 +46,15 @@
 
 #start-into h1{
   text-align: center;
+}
+
+#start-into h3{
+  line-height: 150%;
+}
+
+#start-into img{
+  padding: 40px 0 40px 0;
+  max-width: 600px;
 }
 
 #countdown{
@@ -107,12 +128,25 @@
   position: static;
 }
 
+#wrapper { position: relative; }
 #over_map {
   position: absolute;
-  top: 80px;
-  left: 0;
+  top: 100px;
+  left: 10px;
   z-index: 99;
   width: 100%;
+  
+}
+
+
+.location-card {
+    background: #fff;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.4);
+    margin-bottom: 50px;
+    float: left;
+    width: 100%;
+    position: relative;
+    z-index: 9999;
 }
 
 #map{
