@@ -26,7 +26,7 @@ $(function() {
         } else if (event.elapsed) {
             $(this).text(event.strftime('Das Event läuft grade auf hochtouren.'));
         } else {
-            $(this).text(event.strftime('Noch %D Tage und %H:%M:%S bis zum 2.Four Hour Venture.'));
+            $(this).text(event.strftime('Noch %D Tage und %H:%M:%S bis zum 3.Four Hour Venture.'));
         }
     });
 
