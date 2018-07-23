@@ -20,7 +20,7 @@ $(function() {
 
 // ## Count Down
 $(function() {
-    $("#countdown").countdown("2018/05/10 16:00:00", {elapse: true}).on('update.countdown', function(event) {
+    $("#countdown").countdown("2018/10/05 16:00:00", {elapse: true}).on('update.countdown', function(event) {
         if (event.elapsed && event.strftime('%H') === "06") {
             $(this).text(event.strftime('Das Event ist schon zu Ende. Bis zum nächsten Mal.'));
         } else if (event.elapsed) {
