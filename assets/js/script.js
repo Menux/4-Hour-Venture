@@ -34,7 +34,7 @@ $(function() {
 
 // ## Google Maps
 function initialize() {
-    var latlng = new google.maps.LatLng(52.1791125, 10.5587162);
+    var latlng = new google.maps.LatLng(52.2762958,10.5379855);
     var myOptions = {
         zoom: 16,
         center: latlng,
