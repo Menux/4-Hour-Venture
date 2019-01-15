@@ -20,13 +20,13 @@ $(function() {
 
 // ## Count Down
 $(function() {
-    $("#countdown").countdown("2018/10/05 16:00:00", {elapse: true}).on('update.countdown', function(event) {
+    $("#countdown").countdown("2018/04/25 15:00:00", {elapse: true}).on('update.countdown', function(event) {
         if (event.elapsed && event.strftime('%H') === "06") {
             $(this).text(event.strftime('Das Event ist schon zu Ende. Bis zum nächsten Mal.'));
         } else if (event.elapsed) {
             $(this).text(event.strftime('Das Event läuft grade auf hochtouren.'));
         } else {
-            $(this).text(event.strftime('Noch %D Tage und %H:%M:%S bis zum 4.Four Hour Venture.'));
+            $(this).text(event.strftime('Noch %D Tage und %H:%M:%S bis zum 5.Four Hour Venture.'));
         }
     });
 
