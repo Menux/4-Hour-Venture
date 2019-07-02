@@ -223,3 +223,29 @@
 .videoDistance{
   margin: 40px 0;
 }
+
+body.cda-noimg #cdawrap {
+	--cda-width: 280px;
+	--cda-left: 3rem;
+	--cda-right: auto;
+	--cda-top: auto;
+	--cda-bottom: 3rem;
+	--cda-background: transparent;
+	padding: 0;
+	--cda-border-width: 0;
+	--cda-text-color: #333;
+	z-index: 0;
+	font-family: inherit;
+	font-size: inherit;
+	--cda-text-weight: 400;
+	--cda-sp-color: #8d919f;
+}
+
+body {
+	--color-text: #0f070a;
+	--color-bg: #fff;
+	--color-bg-2: #ecc7d5;
+	--color-link: #4062bb;
+	--color-link-hover: #52489c;
+	background: radial-gradient(ellipse at 75% 0, var(--color-bg) 50%, var(--color-bg-2) 250%)
+}
